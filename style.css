@@ -48,7 +48,7 @@ main {
 }
 
 section {
-    background-color: white
+    background-color: white;
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -86,4 +86,23 @@ card h3{
         tet-aling:center;
         padding: 20px;
         margin-top: px30;
+        }
+
+        button {
+            background-color: #6b2d5c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #9b4d83;
+        }
+
+        .curtir {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
         }
