@@ -12,15 +12,15 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto)
     font-family: arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #0400ff;
-    color: #000000;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara)
     text-align: center;
     padding: 30px;
 }
