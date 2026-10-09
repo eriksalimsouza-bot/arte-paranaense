@@ -1,5 +1,4 @@
-
-:root{
+:root {
     --cor-fundo: #ffffff;
     --cor-texto: #222222;
     --cor-principal: #ffffff;
@@ -11,22 +10,23 @@
     --cor-clara: #ffffff;
     --cor-rodape: #222222;
 }
-body{
+
+body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-family: arial, sans-serif;
     margin: 0;
 }
 
-header{
+header {
     background-color: #0400ff;
-    color:#000000;
+    color: #000000;
     text-align: center;
     padding: 30px;
 }
 
 h1 {
-font-size: 36px;
+    font-size: 36px;
 }
 
 h2 {
@@ -37,27 +37,28 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
-    nav {
-        margin-top: 20px;
-        }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            background-color: #9b4d83;
-            padding: 10px 15px;
-            border-radius: 8px;
-            margin: 5 px;
-            display: inline-block;
-            }
+nav {
+    margin-top: 20px;
+}
 
-            nav a:houver {
-                background-color: #c77dff;
-                }
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #9b4d83;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #c77dff;
+}
 
 
 main {
-    width:80%;
+    width: 80%;
     margin: auto;
 }
 
@@ -71,7 +72,7 @@ section {
 img {
     width: 100%;
     max-width: 600px;
-    display:block;
+    display: block;
     margin: auto;
     border-radius: 12px;
 }
@@ -83,40 +84,41 @@ figcaption {
     margin-top: 8px;
 }
 
-card {
+.card {
     background-color: #f3d9fa;
-padding: 15px;
-margin: 15px 0;
-border-left: 6px solid #6b2d5c;
-border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid #6b2d5c;
+    border-radius: 10px;
 }
 
-card h3{
+.card h3 {
     margin-top: 0;
-    }
-    footer {
-        background-color: #222222;
-        color: white;
-        text-align:center;
-        padding: 20px;
-        margin-top: px30;
-        }
+}
 
-        button {
-            background-color: #6b2d5c;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 8px;
-            cursor: pointer;
-        }
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: px30;
+}
 
-        button:hover {
-            background-color: #9b4d83;
-        }
+button {
+    background-color: #6b2d5c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
-        .curtir {
-            display: block;
-            width: fit-content;
-            margin: 20px auto;
-        }
+button:hover {
+    background-color: #9b4d83;
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
