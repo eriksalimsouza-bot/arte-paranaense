@@ -97,16 +97,16 @@ figcaption {
 }
 
 footer {
-    background-color: #222222;
-    color: white;
+    background-color: var(--cor-rodape);
+    color:var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: px30;
 }
 
 button {
-    background-color: #6b2d5c;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -114,7 +114,7 @@ button {
 }
 
 button:hover {
-    background-color: #9b4d83;
+    background-color: var(--cor-hover);
 }
 
 .curtir {
