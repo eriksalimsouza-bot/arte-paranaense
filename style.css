@@ -1,6 +1,19 @@
+
+:root{
+    --cor-fundo: #white;
+    --cor-texto: #222222
+    --cor-principal:
+    --cor-secundaria:
+    --cor-hover:
+    --cor-superficie:
+    --cor-card:
+    --cor-legenda:
+    --cor-clara:
+    --cor-rodape:
+}
 body{
-    background-color: rgb(88, 88, 212);
-    color: rgb(224, 235, 74);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: arial, sans-serif;
     margin: 0;
 }
