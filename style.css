@@ -122,3 +122,10 @@ button:hover {
     width: fit-content;
     margin: 20px auto;
 }
+
+.galeria {
+    display: flex;
+    gab: 20px;
+    flex-warp;
+    justify-content: center;
+}
