@@ -13,14 +13,14 @@
 
 body {
     background-color: var(--cor-fundo);
-    color: var(--cor-texto)
+    color: var(--cor-texto);
     font-family: arial, sans-serif;
     margin: 0;
 }
 
 header {
     background-color: var(--cor-principal);
-    color: var(--cor-clara)
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -45,7 +45,7 @@ nav {
 nav a {
     color: var(--cor-clara);
     text-decoration: none;
-    background-color: var(--cor-secundaria)
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -123,9 +123,24 @@ button:hover {
     margin: 20px auto;
 }
 
-.galeria {
+.galeria{
     display: flex;
-    gab: 20px;
-    flex-warp;
+    gap: 20px;
+    flex-wrap: center;
     justify-content: center;
+}
+
+.cards-curiosidades{
+    display:flex;
+    gap:20px;
+    flex-wrap:wap;
+}
+
+.btn-tema{
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    width:50px;
+    border-radius:50%;
+    font-size:22px;
 }
