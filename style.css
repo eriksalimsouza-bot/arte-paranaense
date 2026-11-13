@@ -133,7 +133,7 @@ button:hover {
 .cards-curiosidades{
     display:flex;
     gap:20px;
-    flex-wrap:wap;
+    flex-wrap:wrap;
 }
 
 .btn-tema{
